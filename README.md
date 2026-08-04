@@ -62,4 +62,9 @@ npm install
 npx react-native run-android 
 # 또는 npx react-native run-ios
 🎥 Demo
-(여기에 앱 구동 화면이나 악기 분리 믹서를 조작하는 GIF 이미지를 삽입하세요)
+<img width="674" height="1046" alt="image" src="https://github.com/user-attachments/assets/f1dd0db1-3bc1-4663-9778-f8ec891fa25c" /> <img width="690" height="1458" alt="image" src="https://github.com/user-attachments/assets/4cb7ca87-a42b-4033-a0c3-3b1b03dc9a82" />
+<img width="690" height="1046" alt="image" src="https://github.com/user-attachments/assets/74250252-9c8a-416d-b650-673aa0f3eb5c" /> ![Uploading image.png…]()
+
+
+
+
