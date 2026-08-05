@@ -1,3 +1,4 @@
+[초심 악기 연주자들을 위한 딥러닝 기반 지능형 음악분석시스템.pdf](https://github.com/user-attachments/files/30731126/default.pdf)
 # 🎸 AI Chord Tracker & Audio Separator
 
 > 딥러닝을 활용한 실시간 오디오 코드 인식 및 악기 트랙 분리 모바일 애플리케이션 (졸업 논문 공식 구현체)
