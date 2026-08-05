@@ -28,7 +28,7 @@
 
 ### 1. Backend Setup (FastAPI & PyTorch)
 
-'''bash
+```bash
 # 백엔드 디렉토리 이동
 cd backend
 
@@ -45,11 +45,11 @@ cp .env.example .env
 # FastAPI 서버 실행 (포트에 맞춰 실행)
 uvicorn chordAPI:app --host 0.0.0.0 --port 8002 --reload
 uvicorn separation_api:app --host 0.0.0.0 --port 8000 --reload
-'''
+```
 
 ### 2. Frontend Setup (React Native)
 
-'''bash
+```bash
 # 프론트엔드 디렉토리 이동
 cd frontend
 
@@ -59,7 +59,7 @@ npm install
 # 애플리케이션 실행
 npx react-native run-android 
 # 또는 npx react-native run-ios
-'''
+```
 ## 🎬 Demo & Features (시연 영상)
 
 프로젝트의 핵심 기능인 악기 분리와 음원 검색 및 악보 생성 시연 영상입니다. 이미지를 클릭하시면 유튜브 영상으로 이동합니다.
