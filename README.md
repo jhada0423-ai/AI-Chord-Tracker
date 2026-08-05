@@ -28,46 +28,20 @@
 
 ### 1. Backend Setup (FastAPI & PyTorch)
 
-백엔드 서버 구동을 위해 가상환경을 설정하고 필수 패키지를 설치합니다.
-
 ```bash
 # 백엔드 디렉토리 이동
 cd backend
 
-# 가상환경 생성 및 활성화 (선택 사항)
+# 가상환경 생성 및 활성화
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # 의존성 패키지 설치
 pip install -r requirements.txt
-환경변수 설정 및 서버를 실행합니다.
 
-Bash
-# 환경변수 파일 설정
+# 환경변수 파일 설정 (.env 파일 내 PORT 및 설정 값 수정)
 cp .env.example .env
-# .env 파일 내 PORT 및 설정 값 수정
 
 # FastAPI 서버 실행 (포트에 맞춰 실행)
 uvicorn chordAPI:app --host 0.0.0.0 --port 8002 --reload
 uvicorn separation_api:app --host 0.0.0.0 --port 8000 --reload
-2. Frontend Setup (React Native)
-Bash
-# 프론트엔드 디렉토리 이동
-cd frontend
-
-# 패키지 설치
-npm install
-
-# 애플리케이션 실행
-npx react-native run-android 
-# 또는 npx react-native run-ios
-
-## 🎬 Demo & Features (시연 영상)
-
-프로젝트의 핵심 기능인 **악기 분리**와 **음원 검색 및 악보 생성** 시연 영상입니다. 이미지를 클릭하시면 유튜브 영상으로 이동합니다.
-
-### 1️⃣ 악기 분리 기능 (OpenUnmix & Wiener Filter)
-[![Instrument Separation Demo](https://img.youtube.com/vi/2gFNF1ZLtwc/0.jpg)](https://www.youtube.com/watch?v=2gFNF1ZLtwc)
-
-### 2️⃣ 음원 검색 및 AI 코드 악보 생성 기능 (CNN-LSTM-CRF)
-[![Chord Recognition Demo](https://img.youtube.com/vi/67iMyjjpC7w/0.jpg)](https://www.youtube.com/watch?v=67iMyjjpC7w)
