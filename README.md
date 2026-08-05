@@ -61,5 +61,13 @@ npm install
 # 애플리케이션 실행
 npx react-native run-android 
 # 또는 npx react-native run-ios
-🎥 Demo
-(여기에 앱 구동 화면이나 악기 분리 믹서를 조작하는 GIF 이미지를 삽입하세요)
+
+## 🎬 Demo & Features (시연 영상)
+
+프로젝트의 핵심 기능인 **악기 분리**와 **음원 검색 및 악보 생성** 시연 영상입니다. 이미지를 클릭하시면 유튜브 영상으로 이동합니다.
+
+### 1️⃣ 악기 분리 기능 (OpenUnmix & Wiener Filter)
+[![Instrument Separation Demo](https://img.youtube.com/vi/2gFNF1ZLtwc/0.jpg)](https://www.youtube.com/watch?v=2gFNF1ZLtwc)
+
+### 2️⃣ 음원 검색 및 AI 코드 악보 생성 기능 (CNN-LSTM-CRF)
+[![Chord Recognition Demo](https://img.youtube.com/vi/67iMyjjpC7w/0.jpg)](https://www.youtube.com/watch?v=67iMyjjpC7w)
